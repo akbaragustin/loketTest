@@ -1,0 +1,6 @@
+@include('layouts.header')
+@include('layouts.left')
+@include('layouts.menu')
+  @yield('content')
+@include('layouts.modal')
+@include('layouts.footer')
